@@ -66,13 +66,13 @@ Como este será o seu `commit` inicial no projeto, então você observará (em v
 
 Se forem iguais, bastar adicionar os arquivos desejados. Entretanto, se a `branch` remota for `main` e a local for `master`, você precisará então alterar a `branch` antes de adicionar as alterações no projeto. 
 
-Assim, para mudar a `branch` de `master` para `main`, você tem que usar o comando  
+Assim, para mudar a `branch` de `master` para `main`, você tem que utilizar o comando  
 
 ````
 git checkout -b main
 ````
 
-> Quando trabalhamos em projetos versionados com diferentes `branch`s, também conseguimos usando o `git checkout` para fazer o controle das atualizações na `branch` desejada. Por exemplo, usando `git checkout nome_da_branch`
+> Quando trabalhamos em projetos versionados com diferentes `branches`, também conseguimos usando o `git checkout` para fazer o controle das atualizações na `branch` desejada. Por exemplo, usando `git checkout nome_da_branch`
 
 Com as `branch`s iguais, agora podemos adicionar alterações ao nosso projeto.
 
@@ -98,7 +98,7 @@ Assim, o `commit` pode ser realizado usando o comando
 git commit -m "Comentário informando a alteração que está sendo feita no projeto"
 ````
 
-> Basicamente, esse comando cria de um `commit` com uma mensagem de commit transmitida. Por exemplo, `git commit -m "Commit incial"` para indicar que essa é sua versão inicial do código/projeto.
+> Basicamente, esse comando cria de um `commit` com uma mensagem de commit transmitida. Por exemplo, `git commit -m "Commit inicial"` para indicar que essa é sua versão inicial do código/projeto.
 
 Feito isso, basta informar a `origem` do seu repositório remoto, usando o
 
@@ -117,5 +117,11 @@ para subir as alterações desejadas para o Git. Já se o `branch` for o `main`,
 ````
 git push origin main
 ````
+
+---
+
+### Clonando um Repositório do Git
+
+
 
 
