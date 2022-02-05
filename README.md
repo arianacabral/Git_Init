@@ -1,3 +1,5 @@
+<div id="home" align="left"></div>
+
 # Introdução ao controle de versão de código com Git, GitHub e TortoiseGit
 
 ---
@@ -44,6 +46,12 @@ git config user.email
 para visualizar o endereço de e-mail que está definido no ambiente local.
 
 ---
+
+<br/>
+<div align="right">
+    <b><a href="#home">▲ top</a></b>
+</div>
+<br/>
 
 ### Iniciando um Repositório
 
@@ -119,6 +127,12 @@ git push origin main
 ````
 
 ---
+
+<br/>
+<div align="right">
+    <b><a href="#home">▲ top</a></b>
+</div>
+<br/>
 
 ### Clonando um Repositório do Git
 
